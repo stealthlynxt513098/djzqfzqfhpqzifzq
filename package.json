@@ -1,17 +1,14 @@
 {
-  "name": "bot",
+  "name": "my-discord-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "My awesome Discord bot on Railway",
   "main": "index.js",
+  "type": "module", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.26.4",
-    "dotenv": "^17.4.2"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
   }
 }
